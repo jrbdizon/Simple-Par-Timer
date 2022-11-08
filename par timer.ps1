@@ -1,5 +1,5 @@
 ﻿#Beep(Beep Tone, Beep length in ms) max 500 is good for short, 1000 is for long. 
-$Delay = Get-Random -Minimum 2.0 -Maximum 3.5
+$Delay = Get-Random -Minimum 5.0 -Maximum 6.5
 $ParTime = 2
 While($True){
 $Response = [System.Windows.MessageBox]::Show('Run Par Timer?','Par Timer','YesNo','Asterisk')
